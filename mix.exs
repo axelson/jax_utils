@@ -22,7 +22,7 @@ defmodule JaxUtils.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:dotenv_parser, "~> 1.2"},
+      {:dotenv_parser, "~> 2.0"},
       {:jason, "~> 1.2"}
     ]
   end
