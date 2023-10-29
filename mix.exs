@@ -23,7 +23,8 @@ defmodule JaxUtils.MixProject do
   defp deps do
     [
       {:dotenv_parser, "~> 2.0"},
-      {:jason, "~> 1.2"}
+      {:jason, "~> 1.2"},
+      {:cachex, ">= 0.0.0", optional: true}
     ]
   end
 end
