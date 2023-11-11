@@ -22,9 +22,10 @@ defmodule JaxUtils.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:cachex, ">= 0.0.0", optional: true},
       {:dotenv_parser, "~> 2.0"},
       {:jason, "~> 1.2"},
-      {:cachex, ">= 0.0.0", optional: true}
+      {:machete, ">= 0.0.0", only: [:test]}
     ]
   end
 end
